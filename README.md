@@ -23,6 +23,8 @@ The dataset used is data available on the Kaggle website, a dataset called *Telc
 
 - Airflow: for orchestrating the entire workflow.
 - pandas: for data manipulation and cleaning.
+- PostgreSQL: is used as the primary data storage and retrieval system for the dataset.
+- Docker: provides a portable environment in which the data processing pipeline, Airflow operates.
 - Great Expectations: a Python-based data validation and data profiling library. 
 - sqlalchemy: for extracting data from the PostgreSQL database.
 - elasticsearch: for integrating the cleaned data into Elasticsearch, making it ready for visualization with Kibana.
